@@ -2,6 +2,7 @@ version: '3'
 services:
   kudu-master:
     container_name: kudu-master
+    privileged: true
     build:
       context: .
       dockerfile: Dockerfile
