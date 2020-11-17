@@ -10,6 +10,7 @@ RUN yum install -y initscripts kudu kudu-master kudu-tserver kudu-client0 kudu-c
 RUN yum clean all
 
 ADD etc/supervisord.conf /etc/
+ADD etc/kudu/conf/master.gflagfile /etc/kudu/conf/
 ADD etc/kudu/conf/tserver.gflagfile /etc/kudu/conf/
 
 WORKDIR /
