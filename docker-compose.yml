@@ -20,6 +20,7 @@ services:
       KUDU_MASTER: "true"
   kudu-tserver:
     container_name: kudu-tserver
+    privileged: true
     build:
       context: .
       dockerfile: Dockerfile
