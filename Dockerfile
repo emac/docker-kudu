@@ -1,6 +1,6 @@
 FROM parrotstream/centos-openjdk:10
 
-MAINTAINER Matteo Capitanio <matteo.capitanio@gmail.com>
+MAINTAINER Emac Shen <emac@xingren.com>
 
 USER root
 
