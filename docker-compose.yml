@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: parrotstream/kudu:latest
+    image: emac/kudu:latest
     networks:
       default:
         aliases:
@@ -23,7 +23,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: parrotstream/kudu:latest
+    image: emac/kudu:latest
     cap_add:
     - SYS_TIME
     ports:
